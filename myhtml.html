@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Let's Play!</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myjs.js"></script>
+</head>
+
+<body>
+    <h1>Let's Play!</h1>
+    
+    <table align="center">
+        <tr>
+            <td>
+                <img src="./img/dice_1.png" alt="Dice 1" class="diceImg" id="dice1">
+            </td>
+            <td>
+                <img src="./img/dice_1.png" alt="Dice 1" class="diceImg" id="dice2">
+            </td>
+        </tr>
+    </table>
+
+    <div align="center">
+        <button type="button" class="butn1" id="butn1" onclick="play()">Roll</button>
+    </div>
+
+    <table align="center">
+        <tr>
+            <td>
+                <img src="./player/player 1.jpg" alt="Player I" class="player">
+                <p class="p1">Player I</p>
+            </td>
+            <td>
+                <p class="p2">Score</p>
+                <div class="scoreBoard" id="score1">-</div>
+            </td>
+            <td>
+                <p class="p2">Score</p>
+                <div class="scoreBoard" id="score2">-</div>
+            </td>
+            <td>
+                <img src="./player/player 2.jpg" alt="Player II" class="player">
+                <p class="p1">Player II</p>
+            </td>
+        </tr>
+    </table>
+
+    <p class="p3" id="status">Player I goes first</p>
+    
+    <div align="center">
+        <button type="button" class="butn2" onclick="reset()">Reset</button>
+    </div>
+</body>
+
+</html>

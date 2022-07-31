@@ -1,0 +1,103 @@
+body{
+    background-image: radial-gradient(circle, #00d4ff 0%, #5c0067 100%);
+    font-family: Cursive;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.diceImg{
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.butn1{
+    border: none;
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    background-color: #0039a6;
+    color: white;
+    border-radius: 10%;
+    transition-duration: 0.3s;
+    font-family: Cursive;
+    width: 10%;
+    margin-bottom: 7px;
+}
+
+.butn1:hover{
+    background-color: #0a2351;
+}
+
+.butn2{
+    border: none;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    background-color: #0039a6;
+    color: white;
+    border-radius: 10%;
+    transition-duration: 0.3s;
+    font-family: Cursive;
+    width: 10%;
+    margin-top: 7px;
+}
+
+.butn2:hover{
+    background-color: #0a2351;
+}
+
+.player{
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+.p1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.p2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.p3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.scoreBoard{
+    width: 150px;
+    height: 100px;
+    background-color: #B9D9EB;
+    border-radius: 25px;
+    border: solid #5c0067 2px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
