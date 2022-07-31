@@ -1,4 +1,4 @@
-**# Roll-a-Dice-Game**
+# Roll-a-Dice-Game
 
 You need to create a roll-a-dice game in JavaScript.
 
