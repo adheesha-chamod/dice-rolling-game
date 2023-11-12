@@ -1,6 +1,4 @@
-# Roll-a-Dice-Game
-
-You need to create a roll-a-dice game in JavaScript.
+# Roll the Dice
 
 ## **Game Rules**
 
